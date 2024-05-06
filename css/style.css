@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+	max-width: 1200px; /* o quello che volete */
+	margin: 0 auto; /* per centrare quel contenitore nella pagina */
+    padding: 0 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: #2F7C83;
+}
+
+header nav ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding:0;
+}
+
+header a {
+   color: white;
+   text-decoration: none;
+}
+
+header a:hover {
+   text-decoration: underline;
+}
+
+.intro {
+    padding: 48px 0;
+    height: 450px;
+    background-image: url(../immagini/testata\ home.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.info-mostra {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-mostra div.data {
+    width: 40%;
+    padding-right: 20px;
+}
+
+
+.info-mostra div.info {
+    width: 60%;
+}
+
+.info-mostra div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-mostra div.data h2{
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-mostra div.info p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.info-mostra div.info section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.info-mostra div.data p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.elenco-artisti {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 32px;
+    padding-bottom: 100px;
+}
+
+.elenco-artisti img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.elenco-artisti p {
+    text-align: center;
+    padding: 32px 16px;
+}
+
+.elenco-artisti a {
+    text-decoration: none;
+    color: black;
+}
+
+.elenco-artisti a:hover {
+    text-decoration: underline;
+}
+
+.colore-1 {
+    background-color: #DB8944;
+}
+
+.colore-2 {
+    background-color: #FBB7AC;
+}
+
+.colore-3 {
+    background-color: #9A9A9A;
+}
+
+.colore-4 {
+    background-color: #E75C95;
+}
+
+.colore-5 {
+   background-color: #95D066;
+}
+
+.colore-6 {
+    background-color: #91C1CB;
+}
+
+.colore-7 {
+    background-color: #CDF2A5;
+}
+
+.colore-8 {
+    background-color: #58CCE0;
+}
+
+.colore-9 {
+    background-color: #EEAC05;
+}
+
+footer {
+        display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    background-color: #2F7C83;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 26px;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a {
+   color: white;
+   text-decoration: none;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+.mostra {
+    background-color: #CAE9EB;
+}
+
+.mostra a {
+    color: black;
+}
+
+.testata-mostra {
+    padding: 48px 0;
+    height: 450px;
+    background-image: url(../immagini/illu-7.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.testata-mostra h1 {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.info-mostra div.m {
+    width: 40%;
+    padding-right: 20px;
+}
+
+
+.info-mostra div.text-m {
+    width: 60%;
+}
+
+.info-mostra div.m h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-mostra div.text-m p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.laboratorio {
+    background-color: #FF765A;
+}
+
+.laboratorio a {
+    color: black;
+}
+
+.testata-laboratorio {
+    padding: 48px 0;
+    height: 450px;
+    background-image: url(../immagini/illu-6.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.testata-laboratorio h1 {
+    color: black;
+    font-size: 60px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.testata-Jean h1 {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.testata-Jean {
+    padding: 48px 0;
+    height: 450px;
+    background-image: url(../immagini/Handsome-Frank-Jean\ Jullien\ \(6\).jpg);
+    background-size: cover;
+    background-position: center 30%;
+    position: relative;
+}
+
+.Jean {
+    background-color: #DB8944;
+}
+
+.Jean a {
+    color: black;
+}
+
+.testata-Hattie h1 {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.testata-Hattie {
+    padding: 48px 0;
+    height: 450px;
+    background-image: url(../immagini/Handsome-Frank-Hattie\ Clark\ \(4\).jpg);
+    background-size: cover;
+    background-position: center 30%;
+    position: relative;
+}
+
+.Hattie {
+    background-color: #FBB7AC;
+}
+
+.Hattie a {
+    color: black;
+}
+
+.testata-Paul h1 {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.testata-Paul {
+    padding: 48px 0;
+    height: 450px;
+    background-image: url(../immagini/Handsome-Frank-Paul\ Blow\ \(7\).jpg);
+    background-size: cover;
+    background-position: center 10%;
+    position: relative;
+}
+
+.Paul {
+    background-color: #9A9A9A;
+}
+
+.Paul a {
+    color: black;
+}
+
+.Artisti {
+    background-color: #956B05;
+}
+
+.testata-artisti {
+    padding: 48px 0;
+    height: 450px;
+    background-image: url(../immagini/illu-8.png);
+    background-size: cover;
+    background-position: center 30%;
+    position: relative;
+}
+
+.testata-artisti h1 {
+color: black;
+font-size: 60px;
+position: absolute;
+bottom: 50px;
+width: 100%;
+text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .info-mostra {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .info-mostra div.data, .info-mostra div.info {
+        width: 100%;
+    }
+}
